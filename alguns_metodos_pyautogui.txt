@@ -1,0 +1,35 @@
+#mover até a coordenada
+    pyautogui.moveTo(1358,257,duration=2)
+
+#clicar arrastar e soltar até um ponto
+    pyautogui.dragTo(1360.790,button='left',duration=1.5)
+
+# Mover mouse até o campo digitar
+pyautogui.moveTo(1500, 117, duration=1)
+
+# Clicar no campo digitar
+pyautogui.click()
+
+
+# Clicar no botão enviar
+pyautogui.click(1500, 117, duration=1)
+
+#usa atalho
+pyautogui.hotkey('win','r')
+
+#escreve
+pyautogui.write('cmd')
+
+#usa a tecla
+pyautogui.press('enter')
+
+#click personalizado
+pyautogui.click(x=1061,y=422,clicks=2,interval=0.0,button='left',duration=2)
+#Click na posição atual(com botão esquerdo do mouse)
+
+# x com o número positivo = para a horizontal para direita
+# x com o número negativo -1061 = para a horizontal para esquerda
+# y com número positivo = vertical para baixo
+# y com número negativo = vertical para cima
+# clicks = quantidade de clicks
+# interval = tempo de cada  click
